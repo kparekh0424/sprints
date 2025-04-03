@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "inst_414"
+version = "0.0.1"
+description = "This project investigates how machine learning models can improve the accuracy of hyperlocal weather forecasts by predicting the difference between forecasted and actual temperatures. Using real-time data from the National Weather Service (NWS) and NOAA\u2019s METAR API, the project builds a predictive pipeline that includes data collection, preprocessing, feature engineering, and model evaluation. Models like Ridge Regression and Random Forest are implemented to analyze and minimize forecast errors. The goal is to create a scalable, data-driven solution that enhances public safety and decision-making by providing more accurate, location-specific weather predictions."
+authors = [
+  { name = "Kavita_Parekh" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["inst_414"]
+include = ["pyproject.toml", "inst_414/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["inst_414"]
+force-sort-within-sections = true
+
