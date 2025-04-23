@@ -82,7 +82,7 @@ The project follows the [Cookiecutter Data Science](https://cookiecutter-data-sc
 ## Project Structure
 
 ```
-├── data/
+├── data copy/
 │   ├── raw/               <- Original weather data from APIs
 │   └── processed/         <- Cleaned and merged data used for modeling
 ├── notebooks/             <- Jupyter notebooks for data processing and model training
