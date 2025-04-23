@@ -1,4 +1,4 @@
-# sprints_inst414_project
+# sprints
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
@@ -24,14 +24,14 @@ Key libraries used:
 - matplotlib
 - requests
 - datetime
-- jupyter
+- jupyter notebook
 
 ## 🧪 Setting Up the Environment
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/sprints_inst414_project.git
-cd sprints_inst414_project
+cd sprints
 ```
 
 3. Install dependencies:
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 Open the Jupyter notebook:
 
 ```bash
-jupyter notebook notebooks/sprint2.ipynb
+jupyter notebook notebooks/sprints2.ipynb
 ```
 
 The notebook performs the following:
@@ -87,8 +87,9 @@ The project follows the [Cookiecutter Data Science](https://cookiecutter-data-sc
 │   └── processed/         <- Cleaned and merged data used for modeling
 ├── notebooks/             <- Jupyter notebooks for data processing and model training
 ├── inst_414/              <- Source code (scripts for data and model functions)
-├── models/                <- Trained model files (to be added)
-├── reports/               <- Generated plots and charts
+├── models/                <- Trained model files 
+├── reports/
+    ├── figures/           <- Visualizations: generated plots and charts
 ├── references/            <- Data dictionaries, API docs, external sources
 ├── requirements.txt       <- Python dependencies
 ├── README.md              <- This file
